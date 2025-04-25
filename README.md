@@ -4,6 +4,20 @@ This package contains shared configurations for TypeScript, ESLint, and Prettier
 
 ## Usage
 
+Extend the configurations in your project:
+
+- **TypeScript**: Extend your `tsconfig.json`.
+- **ESLint**: Extend your `.eslintrc.js`.
+- **Prettier**: Extend your `.prettierrc.js`.
+
+### Installation
+
+To use the shared configurations in your project, install the package:
+
+```bash
+pnpm add @openanaffa/config
+```
+
 ### TypeScript Configuration
 
 Extend the base TypeScript configuration in your project's `tsconfig.json`:
@@ -60,3 +74,7 @@ Make sure to add the following dependencies to your project:
   }
 }
 ```
+
+## License
+
+This project is licensed under the MIT License.
